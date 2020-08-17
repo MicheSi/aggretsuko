@@ -6,21 +6,23 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ede3619e-cef4-4d4e-8f80-8c3b2a31126f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javapractice/aggretsuko/AggretsukoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/javapractice/aggretsuko/AggretsukoApplicationTests.java" afterDir="false" />
+    <list default="true" id="30cf8e7c-ffa5-47c3-a83f-9c4d38162b75" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/aggretsuko/config/H2ServerConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggretsuko.iml" beforeDir="false" afterPath="$PROJECT_DIR$/aggretsuko.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../aggretsuko_api/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../aggretsuko_api/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../aggretsuko_api/.idea/jarRepositories.xml" beforeDir="false" />
@@ -123,10 +125,17 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1gFIZKWL6VdfCANbLk82Nttq9Uj" />
+  <component name="ProjectId" id="1gFKFM1hMFgJBEELB7zviwIzOCE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -135,11 +144,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -148,7 +157,7 @@
   <component name="RunManager">
     <configuration name="AggretsukoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="aggretsuko" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.javapractice.aggretsuko.AggretsukoApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.java.aggretsuko.AggretsukoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -159,12 +168,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ede3619e-cef4-4d4e-8f80-8c3b2a31126f" name="Default Changelist" comment="" />
-      <created>1597703967156</created>
+      <changelist id="30cf8e7c-ffa5-47c3-a83f-9c4d38162b75" name="Default Changelist" comment="" />
+      <created>1597704795687</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1597703967156</updated>
-      <workItem from="1597703970762" duration="118000" />
+      <updated>1597704795687</updated>
+      <workItem from="1597704801923" duration="437000" />
+      <workItem from="1597705290773" duration="17000" />
     </task>
     <servers />
   </component>
@@ -181,8 +191,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
